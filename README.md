@@ -1,4 +1,18 @@
 # 05 Third-Party APIs: Work Day Scheduler
+By: Kai Walsh
+
+## Built With
+HTML, CSS, JavaScript, and moment.js
+
+## Link
+https://kaiwalsh1.github.io/WorkDaySchedulerHomework/
+
+## Description
+Received starter code. Modified code to create a simple calendar application that allows users to save events for each hour of the day. 
+
+## Sources
+moment.js
+
 
 ## Your Task
 
