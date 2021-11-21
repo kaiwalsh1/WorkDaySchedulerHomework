@@ -16,12 +16,17 @@ $(document).ready(function() {
         console.log(input1.val());
         localStorage.setItem('hour 1', input1.val());
     });
+
+    if (localStorage.getItem("hour 2")) {
+        input2.val(localStorage.getItem("hour 2"));
+    };
     button2.click(function() {
         console.log(input2.val());
         localStorage.setItem('hour 2', input1.val());
     });
 
 
+// 
     if (button1.val() == moment().hour()) {
         console.log("current time");
         timeblock.css("background-color", "red");
@@ -33,6 +38,19 @@ $(document).ready(function() {
         timeblock.css("background-color", "green");
     }
 })
+    // if (button2.val() == moment().hour()){
+    //     timeblock.css("background-color", "red");
+    //     console.log("current time");
+    // } else if (button2.val() < moment().hour()) {
+    //     console.log("past time");
+    //     timeblock.css("background-color", "gray");
+    // } else if (button2.val() > moment().hour()) {
+    //     console.log("future time");
+    //     timeblock.css("background-color", "green");
+    // }
+
+
+
 
 // for (let i = 0; i < 9; i++) {
 //     if (buttons.val() == moment().hour()) {
@@ -46,3 +64,4 @@ $(document).ready(function() {
 //     timeblock.css("background-color", "green");
 // }
 // };
+
