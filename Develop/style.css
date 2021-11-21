@@ -74,3 +74,7 @@ input {
   width: 80%;
   margin: auto;
 }
+
+i {
+  justify-content: center;
+}
