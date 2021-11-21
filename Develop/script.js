@@ -64,16 +64,15 @@
 
 
 if (button1.val() == moment().hour()) {
-    console.log("current time");
+    // console.log("current time");
     timeblock.css("background-color", "red");
 } else if (button1.val() < moment().hour()) {
-    console.log("past time");
+    // console.log("past time");
     timeblock.css("background-color", "gray");
 } else if (button1.val() > moment().hour()) {
-    console.log("future time");
+    // console.log("future time");
     timeblock.css("background-color", "green");
 }
-})
 
     // if (button2.val() == moment().hour()){
     //     timeblock.css("background-color", "red");
