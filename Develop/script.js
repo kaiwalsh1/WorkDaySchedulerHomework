@@ -5,7 +5,7 @@ $(document).ready(function() {
     var input2 = $('#ten');
     var button2 = $('#btn2');
     var timeblock = $('.timeblock');
-    var buttons = $('.btn-primary');
+    var saveBtn = $('.saveBtn');
 
     
     if (localStorage.getItem("hour 1")) {
@@ -26,7 +26,7 @@ $(document).ready(function() {
     });
 
 
-// 
+
     if (button1.val() == moment().hour()) {
         console.log("current time");
         timeblock.css("background-color", "red");
